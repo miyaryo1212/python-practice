@@ -1,8 +1,7 @@
 # フィボナッチ数列
 print("フィボナッチ数列")
 n = int(input("第何項まで (n≧2) >>> "))
-a = 1
-b = 1
+a = b = 1
 print(a)
 print(b)
 n = n-2
