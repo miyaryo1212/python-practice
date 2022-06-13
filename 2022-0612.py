@@ -3,12 +3,12 @@ import time
 
 print("素数計算")
 
-input_number = int(input("どこまで計算する？数字を入力 (N ≧ 5) >>> "))
+input_number = int(input("どこまで計算する？数字を入力 (N ≧ 2) >>> "))
 
 t0 = time.time()
 
 total_calc = 0
-for i in range(4, input_number + 1):
+for i in range(2, input_number + 1):
     for j in range(2, i + 1):
         total_calc += 1
         if j == i:
