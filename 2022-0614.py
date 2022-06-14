@@ -1,6 +1,4 @@
 # 約数を表示する
-from array import array
-
 
 N = int(input("Nの約数を表示する N >>> "))
 array = []
