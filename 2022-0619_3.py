@@ -1,0 +1,15 @@
+input_number = int(input("素数判定 >>> "))
+
+print("準備中...")
+print("10%完了")
+print("20%完了")
+print("30%完了")
+print("40%完了")
+print("50%完了")
+print("60%完了")
+print("70%完了")
+print("80%完了")
+print("90%完了")
+print("100%完了")
+
+print(f'{"「"}{str(input_number)}{"」は素数 (知らんけど)"}')
